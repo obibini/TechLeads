@@ -5,6 +5,18 @@
  * ------------------------------------------------------------------- 
  */ 
 
+
+ 
+$(window).scroll(function() {
+    if ($(this).scrollTop()>10){
+        $('.myimgDiv').hide(1000);
+     }
+    else{
+      $('.myimgDiv').show(1000);
+     }
+ });
+
+
 (function($) {
 
 	"use strict";
